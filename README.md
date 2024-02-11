@@ -140,7 +140,7 @@ become no-ops). This is intended for profiling during development only.
 
 For an OoT codebase, only a few minor changes are required to use F3DEX3.
 However, more changes are recommended to increase performance and enable new
-features.
+features. For a HackerSM64 codebase, simply set the `GRUCODE` makefile variable to `f3dex3` and rebuild after running `make clean`.
 
 Select the correct version of F3DEX3 for your game: use `make F3DEX3_BrW` if the
 microcode is replacing F3DZEX (i.e. OoT or MM), otherwise `make F3DEX3_BrZ` if
